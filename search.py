@@ -1,5 +1,6 @@
 from operator import itemgetter
 
+
 def bfs(graph, start, goal):
     queue = [[start]]
     open = [start]
